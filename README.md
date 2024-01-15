@@ -19,7 +19,11 @@ things to implement in js:
         github source to the site
         built in games as commands in the terminal
         lorem impsum genrator
-        
+
+    to build features : 
+        add toggle for swithchng colo-scheme dark/light mode
+
+
 
 
 
