@@ -24,6 +24,12 @@ things to implement in js:
         add toggle for swithchng colo-scheme dark/light mode
 
 
+resourcers  adn citations:
+
+    Date :
+    
+    [toLocaleString():] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
+
 
 
 
