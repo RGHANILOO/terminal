@@ -12,12 +12,18 @@
   font: inherit;
 }
 html {
-  color-scheme: dark light;
+  color-scheme: light dark;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
   /* taking into accoutnt he browser banner on smaller screens */
   min-height: 100svh;
+  display: grid;
+  grid-template-columns: [col1-start] 15% [col2-start] minmax(320px, auto) [col3-start]15%;
+  
 }
 img,
 picture,
@@ -39,15 +45,30 @@ li {
   max-width: var(--p-max-width, 65ch);
   text-wrap: pretty;
 }
+input,
+label {
+  /* to remove the styling of the input element */
+  all: unset;
+  display: inline;
+}
 /* end of reset  */
 
 /* variabele */
 
-h1{
-    color: oklch(81.18% 0.315 147.18);
-    font-family: ui-monospace;
-    font-size: 2.5rem;
+.main {
+  grid-column: col2-start / col3-start;
+}
+.main > div {
+  border: 2px solid red;
+  margin-top:1rem
+}
 
+h1 {
+  color: oklch(81.18% 0.315 147.18);
 
+  font-size: 1rem;
+}
 
+input {
+  text-indent: 3px;
 }

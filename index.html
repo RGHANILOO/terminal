@@ -3,23 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
     <title>Reza's Terminal Portfolio</title>
   </head>
   <body>
-    <container class="main">
-      <p class="last-login">Last login: <span id="last-login-time"></span> </p>
-        <h1> <span>@</span>Reza-Ghaniloo:$ 
-           <br> <span>Type /help to start</span></h1>
-      <div class="terminal">
-        <div class="terminal-form">
-          <form>
-            <label for="command" class="command"> root/$</label>
-            <input type="text" value />
-          </form>
+    <section class="main">
+      <div class="main-interaction">
+        <p class="last-login">Last login: <span id="last-login-time"></span></p>
+        <h1>
+          <span>@</span>Reza-Ghaniloo:$ <br />
+          <span>Type /help to start</span>
+        </h1>
+        <div class="terminal">
+          <div class="terminal-form">
+            <form>
+              <template>
+                <label for="command" class="command">
+                  <span data-color="cyan">visitor</span><span data-color="grey">@</span><span data-color="pink">term-port</span><span data-color="grey">:$</span>
+                </label>
+              </template>
+
+              <input name="command" autofocus type="text" value />
+            </form>
+          </div>
         </div>
       </div>
-    </container>
-    <script src="./index.js"></script>
+    </section>
+    <script src="./JS assets/index.js"></script>
   </body>
 </html>

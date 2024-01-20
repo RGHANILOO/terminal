@@ -26,9 +26,12 @@ things to implement in js:
 
 resourcers  adn citations:
 
-    Date :
+    Date onjects and methods :
     
-    [toLocaleString():] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
+    [toLocaleString()] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
+
+    String methods:
+    [string.replaceAll()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll)
 
 
 
