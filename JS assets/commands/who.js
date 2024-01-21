@@ -1,0 +1,1 @@
+console.log('i justr wanna say hellow from the whojs, if yous ee me i am working')

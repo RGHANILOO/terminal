@@ -4,31 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./JS assets/txt-cols.js" defer></script>
+    <script src="./JS assets/shell.js" type="module" defer></script>
     <title>Reza's Terminal Portfolio</title>
   </head>
   <body>
-    <section class="main">
-      <div class="main-interaction">
-        <p class="last-login">Last login: <span id="last-login-time"></span></p>
-        <h1>
-          <span>@</span>Reza-Ghaniloo:$ <br />
-          <span>Type /help to start</span>
-        </h1>
-        <div class="terminal">
-          <div class="terminal-form">
-            <form>
-              <template>
-                <label for="command" class="command">
-                  <span data-color="cyan">visitor</span><span data-color="grey">@</span><span data-color="pink">term-port</span><span data-color="grey">:$</span>
-                </label>
-              </template>
-
-              <input name="command" autofocus type="text" value />
-            </form>
-          </div>
+    <section id="main-terminal-section">
+      <template id="command-template">
+        <div class="command-center">
+          <label for="command"><span data-color="cyan">visitor</span><span data-color="grey">@</span><span data-color="pink">r.ghaniloo</span><span data-color="grey">~ $: </span></label>
+          <input type="text" name="command" autofocus>
         </div>
-      </div>
+      </template>
     </section>
-    <script src="./JS assets/index.js"></script>
   </body>
 </html>
