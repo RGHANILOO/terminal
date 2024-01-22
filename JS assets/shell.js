@@ -1,34 +1,34 @@
-// main fnction to exceute here
-//   handle the user command
+// main function to execute here
+// handle the user command
 
-/**
- * logic:
- * . display welcome message
- * . drop in the command template
- *  . imediate foxus on the input area on load
- * key down on enter key for excuting command
- * adding the excuted command to the history
- * clearing the input area and waitinf for new command
- *
- * key events:
- * up key to show the last command
- * down to clear
- * enter to exceute
- *
- */
-
-// impoirt rhe handler functuion here
 import { handler } from "./command.js";
 
-const wellcomeMessage = ` Welcome to Reza's Terminal, type 'help' to get started !`;
+const message = ` Welcome to Reza's terminal emulator. Type 'help' to get started`;
+//  history store the excuted commands
 const history = [];
-let command = document
-  .querySelector("#command-template")
-  .content.cloneNode(true);
+const terminal = document.querySelector('pre')
 
+// initlising the command template from html file
+let commandTemplate = document.querySelector("#command-template").content.cloneNode(true);
 
+// to help with delay of triggering the animation of the introduction to the site
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+setTimeout(async () => {
+  for (let i = 0; i < message.length; i++) {
+    terminal.textContent += message[i];
+    await sleep(100);
+  }
+  terminal.appendChild(commandTemplate);
+}, 500);
 
-window.addEventListener("DOMContentLoaded", () => {
-  let commandPrompts = document.querySelector("input");
-});
-console.log(wellcomeMessage);
+/**
+ * event listenersto handle the user input and command execustions 
+ * 
+ * to implement focus listener to the input field
+ * to implement keydown listener to the input field
+ * keydown event for enter, arrowup aND DOWN
+ * ENTER TO EXECUTE THE COMMAND
+ * arrow up to get the previous command
+ * arrow down to clear
+ * 
+ */

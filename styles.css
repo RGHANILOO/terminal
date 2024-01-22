@@ -13,7 +13,7 @@
 }
 html {
   color-scheme: light dark;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: 'Fira Code',system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", Arial, sans-serif;
 }
@@ -70,5 +70,8 @@ h1 {
 }
 
 input {
+  caret-color: oklch(81.18% 0.315 147.18);
   text-indent: 3px;
+  
+
 }
