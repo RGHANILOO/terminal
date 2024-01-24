@@ -2,9 +2,9 @@ let i;
 setInterval(() => {
   let spans = document.querySelectorAll("span");
   if (i === spans.length) return;
-  spans.forEach((span) => {
-    const color = span.getAttribute("data-color");
-    span.style.color = color;
+  spans.forEach((ele) => {
+    const color = ele.getAttribute("data-color");
+    ele.style.color = color;
   });
   document.querySelectorAll(".help").forEach((span) => {
     span.onclick = () => {

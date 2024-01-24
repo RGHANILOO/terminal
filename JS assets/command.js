@@ -12,9 +12,10 @@
  */
 
 export async function handler(input, output, history) {
+    console.log({input})
   let exec = input.split(" ");
   let cmd = exec.shift();
-  let args = exec;
+  let args = exec.slice(1);
 
   if (!cmd) return;
 
@@ -22,6 +23,9 @@ export async function handler(input, output, history) {
     let handler = await import(`./commands/${cmd}.js`);
     await handler.default(output, history, ...args);
   } catch (err) {
-    output.textContent += `\n${cmd}: command not found`;
+    output.textContent += `\n Command "${cmd}": not found!`;
+
+
+    
   }
 }

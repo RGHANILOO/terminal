@@ -1,1 +1,3 @@
-console.log('i justr wanna say hellow from the whojs, if yous ee me i am working')
+export default function (output) {
+    console.log(`I JUST WANNA I AM AM WHO I AM ,GET ME?`)
+  }
