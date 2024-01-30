@@ -1,4 +1,4 @@
-export default function (output) {
+export default function help (output) {
   console.log(`i am the help function`);
   output.innerHTML += `
     \

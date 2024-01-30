@@ -1,6 +1,6 @@
 // /function for time element of the terminal
 
-const formattedDate = () => {
+export const formattedDate = () => {
   const date = new Date();
   const options = {
     weekday: "short",

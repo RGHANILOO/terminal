@@ -7,11 +7,10 @@ const message = ` Welcome to Reza's terminal emulator. Type 'help' to get starte
 //  history store the excuted commands
 const history = [];
 const terminal = document.querySelector("pre");
+terminal.textContent += message;
 
 // initlising the command template from html file
-let commandTemplate = document
-  .querySelector("#command-template")
-  .content.cloneNode(true);
+let commandTemplate = document.querySelector("#command-template").content.cloneNode(true);
 
 // to help with delay of triggering the animation of the introduction to the site
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
