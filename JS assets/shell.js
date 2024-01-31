@@ -7,7 +7,7 @@ const message = ` Welcome to Reza's terminal emulator. Type 'help' to get starte
 //  history store the excuted commands
 const history = [];
 const terminal = document.querySelector("pre");
-terminal.textContent += message;
+// terminal.textContent += message;
 
 // initlising the command template from html file
 let commandTemplate = document.querySelector("#command-template").content.cloneNode(true);
