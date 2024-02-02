@@ -57,10 +57,10 @@ label {
 .main {
   grid-column: col2-start / col3-start;
 }
-.main > div {
+/* .main > div {
   border: 2px solid red;
   margin-top: 1rem;
-}
+} */
 
 h1 {
   color: oklch(81.18% 0.315 147.18);
