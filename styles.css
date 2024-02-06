@@ -42,43 +42,76 @@ h6 {
 p,
 li {
   max-width: var(--p-max-width, 65ch);
-  text-wrap: pretty;
+  /* text-wrap: pretty; */
+  
 }
 input,
 label {
   /* to remove the styling of the input element */
   all: unset;
-  display: inline;
+  display: flex;
 }
 /* end of reset  */
 
 /* variabele */
 
-.main {
-  grid-column: col2-start / col3-start;
+.main-terminal-section {
+  grid-column: col1-start / col3-start;
+  font-family: monospace;
 }
-/* .main > div {
-  border: 2px solid red;
-  margin-top: 1rem;
-} */
 
-h1 {
+/* h1 {
   color: oklch(81.18% 0.315 147.18);
 
   font-size: 1rem;
-}
+} */
 
 input {
   caret-color: oklch(81.18% 0.315 147.18);
   text-indent: 3px;
+  /* display: flex; */
 }
-/* label{
+label {
   text-align: right;
+  padding-left: 5px;
+}
+.command-template{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   
-} */
-.command-center{
-  padding: 0;
+  
+}
+.command-center {
   width: 100%;
   display: grid;
+  grid-template-columns: [col1-start] 1fr [col2-start] 1fr [col3-start] 1fr;
+  /* grid-column: col1-start / col3-start; */
+  padding-left: 5px;
+  
+}
 
+pre {
+  
+  font-family: monospace;
+  min-width: max-content;
+  
+}
+.whop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  padding-left: 10px;
+  /* line-height: 0.8; */
+  font-size: 1rem;
+}
+.help1{
+  display: flex;
+  place-content: flex-end;
+  grid-column: col3-start;
+}
+body {
+  margin-left: 50px;
 }

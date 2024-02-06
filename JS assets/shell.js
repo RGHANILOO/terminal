@@ -3,7 +3,7 @@
 
 import { handler } from "./command.js";
 
-const message = ` Welcome to Reza's terminal emulator. Type 'help' to get started`;
+const message = `\n Hello 👋🏽 I am Reza, i build 🏗️ and fix 🛠️ things on the web \n type 'help' to get started`;
 //  history store the excuted commands
 const history = [];
 const terminal = document.querySelector("pre");
@@ -23,7 +23,7 @@ setTimeout(async () => {
 }, 200);
 
 /**
- * event listenersto handle the user input and command execustions
+ * event listeners to handle the user input and command execustions
  *
  * to implement focus listener to the input field
  * to implement keydown listener to the input field
