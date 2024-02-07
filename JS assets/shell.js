@@ -3,6 +3,7 @@
 
 import { handler } from "./command.js";
 
+
 const message = `\n Hello 👋🏽 I am Reza, i build 🏗️ and fix 🛠️ things on the web \n type 'help' to get started`;
 //  history store the excuted commands
 const history = [];
