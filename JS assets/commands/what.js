@@ -1,6 +1,15 @@
 export default function (output) {
     console.log(`i do what i do and thats that`)
     output.innerHTML += ` 
-        Below you can 
+    <div>
+    <ul>
+      <li><h4>terminal</h4><p>A terminal emulator serves as my personal site for this application.</p><a href="github">github</a> <a href="livelink">live link</a></li>
+      <li><h4>Hangman</h4><p>A playful game integrated as a component of this application.</p><a href="https://github.com/RGHANILOO/hangman">github</a> <a href="https://rghaniloo.github.io/hangman/">live link</a></li>
+      <li><h4>DSA</h4><p>FCC dsa</p><a href="github">github</a> <a href="livelink">live link</a></li>
+      <li><h4>pro-name</h4><p>proj descrip</p><a href="github">github</a> <a href="livelink">live link</a></li>
+      <li><h4>pro-name</h4><p>proj descrip</p><a href="github">github</a> <a href="livelink">live link</a></li>
+      <li><span><h4>pro-name</h4></span><span><p>proj descrip</p></span><span><a href="github">github</a> </span><span><a href="livelink">live link</a></span></li>
+    </ul>
+  </div>
         `;
   }
