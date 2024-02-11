@@ -18,7 +18,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 setTimeout(async () => {
   for (let i = 0; i < message.length; i++) {
     terminal.textContent += message[i];
-    await sleep(100);
+    await sleep(10);
   }
   terminal.appendChild(commandTemplate);
 }, 200);

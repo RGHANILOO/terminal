@@ -14,8 +14,7 @@ export default function help (output) {
     <span data-color="grey">Additional Commands: </span>
     <span data-color="grey">--------------------</span>
 
-    <span data-color="lime">Games: </span>\n  <span data-color="grey">-</span> <span data-color="yellow">series of mini games</span>
-    <span data-color="lime">Code Wars:</span>\n  <span data-color="grey">-</span> <span data-color="yellow">Why do i want career as software developer </span>
+    <span data-color="lime">Codewars:</span>\n  <span data-color="grey">-</span> <span data-color="yellow">A list of all the completed かた having reached きゅうご　</span>
     <span data-color="lime">CV:</span>\n  <span data-color="grey">-</span> <span data-color="yellow">What i have buit and learned along the way.</span>
     
     `;
