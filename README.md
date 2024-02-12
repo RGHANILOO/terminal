@@ -1,10 +1,10 @@
 # Portfolio 
 
-Nothing fancy to see here its just my [porfolio website!](link.om)
+Nothing fancy to see here its just my [porfolio website!](https://rghaniloo.github.io/terminal/)
 
 ### What is this all about then? 
 
-This iteration of the site is part of an application i am making for the upcoming cohort with nice folks at FAC aka Founders & Coders
+This iteration of the site is part of an application i am making for the upcoming cohort with nice folks at FAC aka Founders & Coders all of it made with HTML, CSS and vanilla JavaScript.
 
 also doesn't everyone now have a website, even this little dude has [his own](https://puginarug.com/)
 
@@ -14,12 +14,12 @@ also doesn't everyone now have a website, even this little dude has [his own](ht
 
 ### Did i hear you say that's cool
 
-Well, thank you, The idea was inspired by [this](https://nhcarrigan.com/), however i wanted to go for something that resembled more like my terminal on my Mac, i do spend a lot of time there afterall, moving, making, pulling, pushing, debugging, breaking and fixing
+Well, thank you, The idea was inspired by [this](https://nhcarrigan.com/), however i wanted to go for something that resembled more like my terminal on my computer, i do spend a lot of time there afterall, moving, making, pulling, pushing, debugging, breaking and fixing
 
-This is just a start and the MVP i envisioned for my application.
+This is just a start and the MVP i envisioned for my application maybe a buggy at times but i am proud of it and had alot of fun making it.
 
 
-#### Jokes aside
+#### Funnies aside
 ### Ongoing Development:
 
 Next steps for ongoing development of this site will be building some or all of the following features:

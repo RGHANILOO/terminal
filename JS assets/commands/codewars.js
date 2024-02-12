@@ -5,7 +5,7 @@ export default async function fetchData(output) {
 
     for (let i = 0; i < data.data.length; i++) {
       const challenge = data.data[i];
-      output.innerHTML += `<span data-color="cyan">${challenge.name}</span> <span data-color="yellow">${challenge.completedLanguages}</span> <span data-color="grey">|==>></span> ${challenge.completedAt}\n`;
+      output.innerHTML += `\n <span data-color="cyan">${challenge.name}</span> <span data-color="yellow">${challenge.completedLanguages}</span> <span data-color="grey">|==>></span> ${challenge.completedAt}\n`;
     }
 
     // loop over each item in the data array

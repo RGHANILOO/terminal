@@ -12,6 +12,7 @@
  */
 
 export async function handler(input, output, history) {
+  input = input.toLowerCase();
     console.log({input})
   let exec = input.split(" ");
   let cmd = exec.shift();
