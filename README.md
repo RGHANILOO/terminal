@@ -14,7 +14,7 @@ also doesn't everyone now have a website, even this little dude has [his own](ht
 
 ### Did i hear you say that's cool
 
-Well, thank you, The idea was inspired by [this](https://nhcarrigan.com/), however i wanted to go for something that resembled more like my terminal on my computer, i do spend a lot of time there afterall, moving, making, pulling, pushing, debugging, breaking and fixing
+Well, thank you, The idea was inspired by N. Carrigans's [site](https://nhcarrigan.com/), however i wanted to go for something that resembled more like my terminal on my computer, i do spend a lot of time there afterall, moving, making, pulling, pushing, debugging, breaking and fixing
 
 This is just a start and the MVP i envisioned for my application maybe a buggy at times but i am proud of it and had alot of fun making it.
 
