@@ -9,7 +9,7 @@ This iteration of the site is part of an application i am making for the upcomin
 also doesn't everyone now have a website, even this little dude has [his own](https://puginarug.com/)
 
 - This is my tiny crib on interweb
-- This website will be continuously updated as a part of me learning and experimenting  with new tech stack, like Svelte, 11ty, React, or any other framworks and languages that might interest me.
+- This website will be continuously updated as a part of me learning and experimenting  with new tech stack, like Svelte, 11ty, React, or any other frameworks and languages that might interest me.
 - I will be updating it with all the new cool things i make to show off.
 
 ### Did i hear you say that's cool
