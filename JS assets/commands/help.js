@@ -14,7 +14,7 @@ export default function help (output) {
     <span data-color="grey">Additional Commands: </span>
     <span data-color="grey">--------------------</span>
 
-    <span data-color="#2bad5d">codewars</span>\n  <span data-color="grey">-</span> <span data-color="#d06b33">A list of all the completed かた having reached きゅうご</span>
+    <span data-color="#2bad5d">codewars</span>\n  <span data-color="grey">-</span> <span data-color="#d06b33">A list of all the completed かた having reached ごきゅう</span>
     <span data-color="#2bad5d">cv</span>\n  <span data-color="grey">-</span> <span data-color="#d06b33">You can download a copy of my CV here</span>
     <span data-color="#2bad5d">clear</span>\n  <span data-color="grey">-</span> <span data-color="#d06b33">Clear the terminal</span>
     
